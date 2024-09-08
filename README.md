@@ -16,7 +16,7 @@ This study investigates automating meta-analysis in scientific documents using l
 
 | Metric                          | Actual | Chunked  |
 |----------------------------------|--------|----------|
-| **Types of Domains**             | Scientific Studies | |
+| **Types of Domains**             | Scientific Studies  |
 | **Min. input (Sj) context length** | 733    | 1005     |
 | **Max. input (Sj) context length** | 32,767 | 2,000    |
 | **Avg. input (Sj) context length** | 16,890.22 | 1,542.32 |
