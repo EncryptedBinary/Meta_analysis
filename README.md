@@ -94,11 +94,11 @@ Run the following commands to install the necessary libraries:
 
 3. Using Our Pre-trained Models
 You can use our pre-trained models for generating meta-analysis abstracts by downloading them from Hugging Face:
-
+```bash
 Llama2: Bakugo123/Cosine_matric_llama2_prompt1
 Mistral: bingowithmylingo/mistral_newPrompt
 Simply load the models and run inference using the fine-tuned weights. Example below:
-
+```
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -115,20 +115,22 @@ inputs = tokenizer(input_text, return_tensors="pt")
 output = model.generate(**inputs)
 print(tokenizer.decode(output, skip_special_tokens=True))
 ```
-🧪 Train-Test-Split
-We’ve structured our dataset into the following splits to ensure robust training and evaluation:
+## 🧪 Train-Test-Split
 
-Training: 400 meta-analysis documents
-Validation: 75 meta-analysis documents
-Testing: 50 meta-analysis documents
+- **Training**: 400 meta-analysis documents
+- **Validation**: 75 meta-analysis documents
+- **Testing**: 50 meta-analysis documents
+
 Feel free to modify the splits or experiment with different datasets based on your use case.
 
-📚 Model Training
-For those interested in fine-tuning the models further, we recommend checking out the train.py script, which includes hyperparameters and configurations for:
+## 📚 Model Training
 
-Epochs: 10+
-Loss Function: Inverse Cosine Distance (ICD)
-Optimization: Using bitsandbytes for efficient scaling
+For those interested in fine-tuning the models further, we recommend checking out the `train.py` script, which includes hyperparameters and configurations for:
+
+- **Epochs**: 10+
+- **Loss Function**: Inverse Cosine Distance (ICD)
+- **Optimization**: Using bitsandbytes for efficient scaling
+
 
 ### References
 - [1] M. Subbiah et al., "Reading subtext: Evaluating large language models," arXiv:2403.01061, 2024.
