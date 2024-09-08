@@ -83,7 +83,7 @@ To get started with our models, follow the steps below.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/EncryptedBinary/Meta_analysis.git
-cd meta-analysis-llm
+cd Meta_analysis
 ```
 2. Install Required Packages
 Run the following commands to install the necessary libraries:
@@ -135,10 +135,9 @@ For those interested in fine-tuning the models further, we recommend checking ou
 
 
 ### References
-- [1] M. Subbiah et al., "Reading subtext: Evaluating large language models," arXiv:2403.01061, 2024.
-- [2] J. Lim, H.-J. Song, "Improving multi-stage long document summarization," 2023.
-- [3] A. J. Yepes et al., "Financial report chunking for effective retrieval," arXiv:2402.05131, 2024.
-- [4] S. Manathunga, Y. Illangasekara, "Retrieval augmented generation in medical education," arXiv:2308.00479, 2023.
+- [1] M. Subbiah et al., "Reading subtext: Evaluating large language models," [arXiv:2403.01061, 2024.](https://arxiv.org/abs/2403.01061)
+- [2] J. Lim, H.-J. Song, "Improving multi-stage long document summarization," [ACLang, 2023.](https://aclanthology.org/2023.newsum-1.13.pdf)
+- [3] A. J. Yepes et al., "Financial report chunking for effective retrieval," [arXiv:2402.05131, 2024.](https://arxiv.org/abs/2402.05131)
+- [4] S. Manathunga, Y. Illangasekara, "Retrieval augmented generation in medical education," [arXiv:2308.00479, 2023.](https://arxiv.org/abs/2308.00479)
 
 ---
-
