@@ -97,8 +97,10 @@ You can use our pre-trained models for generating meta-analysis abstracts by dow
 ```bash
 Llama2: Bakugo123/Cosine_matric_llama2_prompt1
 Mistral: bingowithmylingo/mistral_newPrompt
-Simply load the models and run inference using the fine-tuned weights. Example below:
+
 ```
+Simply load the models and run inference using the fine-tuned weights. Example below:
+
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
