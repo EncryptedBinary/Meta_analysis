@@ -8,7 +8,7 @@
 
 This study investigates automating meta-analysis in scientific documents using large language models (LLMs). Meta-analysis synthesizes findings from multiple studies but is labor-intensive when done manually. Our approach fine-tunes LLMs for efficient, automated meta-analysis using **Retrieval Augmented Generation (RAG)** and a novel loss metric, **Inverse Cosine Distance (ICD)**. The fine-tuned models achieved **87.6% relevant meta-analysis abstracts** and reduced irrelevance from **4.56% to 1.9%**, demonstrating efficiency in a low-resource environment.
 
-[Here is the available dataset.](Dataset)
+[Here is the available Meta-Analysis Dataset (MAD)](Dataset)
 
 ---
 
