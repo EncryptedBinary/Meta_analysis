@@ -92,31 +92,7 @@ Run the following commands to install the necessary libraries:
 !pip install langchain
 ```
 
-3. Using Our Pre-trained Models
-You can use our pre-trained models for generating meta-analysis abstracts by downloading them from Hugging Face:
-```bash
-Llama2: Bakugo123/Cosine_matric_llama2_prompt1
-Mistral: bingowithmylingo/mistral_newPrompt
 
-```
-Simply load the models and run inference using the fine-tuned weights. Example below:
-
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
-# Load the model and tokenizer
-model = AutoModelForCausalLM.from_pretrained("Bakugo123/Cosine_matric_llama2_prompt1")
-tokenizer = AutoTokenizer.from_pretrained("Bakugo123/Cosine_matric_llama2_prompt1")
-
-# Example inference
-input_text = "Given a collection of abstracts from papers used in various medical fields for
-meta-analysis, generate a meta-analysis abstract. Summarize the key findings and
-provide numerical values or statistical information for specific observations that
-are commonly reported in the provided abstracts."
-inputs = tokenizer(input_text, return_tensors="pt")
-output = model.generate(**inputs)
-print(tokenizer.decode(output, skip_special_tokens=True))
-```
 ## 🧪 Train-Test-Split
 
 - **Training**: 400 meta-analysis documents
