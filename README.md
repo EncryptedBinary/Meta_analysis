@@ -129,7 +129,7 @@ Feel free to modify the splits or experiment with different datasets based on yo
 
 For those interested in fine-tuning the models further, we recommend checking out the `train.py` script, which includes hyperparameters and configurations for:
 
-- **Epochs**: 10+
+- **Epochs**: 10
 - **Loss Function**: Inverse Cosine Distance (ICD)
 - **Optimization**: Using bitsandbytes for efficient scaling
 
