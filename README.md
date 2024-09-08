@@ -82,12 +82,13 @@ To get started with our models, follow the steps below.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/meta-analysis-llm.git
+git clone https://github.com/EncryptedBinary/Meta_analysis.git
 cd meta-analysis-llm
 ```
 2. Install Required Packages
 Run the following commands to install the necessary libraries:
-```!pip install transformers trl accelerate torch bitsandbytes peft datasets -qU
+```python 
+!pip install transformers trl accelerate torch bitsandbytes peft datasets -qU
 !pip install langchain
 ```
 
@@ -98,7 +99,7 @@ Llama2: Bakugo123/Cosine_matric_llama2_prompt1
 Mistral: bingowithmylingo/mistral_newPrompt
 Simply load the models and run inference using the fine-tuned weights. Example below:
 
-```
+```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Load the model and tokenizer
