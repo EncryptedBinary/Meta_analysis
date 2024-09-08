@@ -12,16 +12,18 @@ This study investigates automating meta-analysis in scientific documents using l
 
 ---
 
-## Dataset Statistics
+### Dataset Statistics
 
-<table>
-  <caption><strong>TABLE I: Dataset and Human Evaluator Demographics</strong></caption>
-  <tr><th>Dataset Statistics</th><th>Actual</th><th>Chunked</th></tr>
-  <tr><td>Min. input context length</td><td>733</td><td>1005</td></tr>
-  <tr><td>Max. input context length</td><td>32,767</td><td>2000</td></tr>
-  <tr><td>Avg. input context length</td><td>16,890.22</td><td>1,542.32</td></tr>
-  <tr><td>Total Instances</td><td>625</td><td>7,447</td></tr>
-</table>
+| Metric                          | Actual | Chunked  |
+|----------------------------------|--------|----------|
+| **Types of Domains**             | Scientific Studies | |
+| **Min. input (Sj) context length** | 733    | 1005     |
+| **Max. input (Sj) context length** | 32,767 | 2,000    |
+| **Avg. input (Sj) context length** | 16,890.22 | 1,542.32 |
+| **Min. labels (yj) context length** | 104    | 104      |
+| **Max. labels (yj) context length** | 2,492  | 2,492    |
+| **Avg. labels (yj) context length** | 1,446.45 | 1,446.45 |
+| **Total Instances**              | 625    | 7,447    |
 
 <table>
   <tr><th>Human Evaluators Details</th><th>Count</th></tr>
