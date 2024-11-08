@@ -1,7 +1,7 @@
 # Empowering Meta-Analysis: Leveraging Large Language Models for Scientific Synthesis
 
 <p align="center">
-  <strong>Official Implementation for IEEE BigData 2024 Submission</strong>
+  <strong>Official Implementation for IEEE BigData 2024 </strong>
 </p>
 
 ## Abstract
